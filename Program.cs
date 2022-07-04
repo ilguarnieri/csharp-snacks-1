@@ -1,20 +1,35 @@
 ﻿//---------- SNACK 6 ----------
 {
-Console.WriteLine("\n\n*** SNACK 6 *** ");
+    Console.WriteLine("\n\n*** SNACK 6 *** ");
 }
 
 
 
 //---------- SNACK 6 ----------
 {
-Console.WriteLine("\n\n*** SNACK 6 *** ");
+    Console.WriteLine("\n\n*** SNACK 6 *** ");
 }
 
 
 
 //---------- SNACK 5 ----------
+//Il software chiede all’utente di inserire un numero. Se il numero inserito
+//è pari, stampa il numero, se è dispari, stampa il numero successivo.
 {
-Console.WriteLine("\n\n*** SNACK 5 *** ");
+    Console.WriteLine("\n\n*** SNACK 5 *** ");
+    int num;
+
+    Console.WriteLine("Inserisci un numero intero");
+    num = Convert.ToInt32(Console.ReadLine());
+
+    if(num % 2 == 0)
+    {
+        Console.WriteLine("Il numero inserito è pari");
+    }
+    else
+    {
+        Console.WriteLine("Il numero inserito è dispari");
+    }
 }
 
 
