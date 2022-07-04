@@ -3,6 +3,24 @@
 //Quindi chiedere un numero all'utente e comunicargli se è pari o dispari.
 {
     Console.WriteLine("*** SNACK 12 *** ");
+
+    void CheckNumber(int number)
+    {
+        if(number % 2 == 0)
+        {
+            Console.WriteLine($"\nIl numero {number} è pari");
+        }
+        else
+        {
+            Console.WriteLine($"\nIl numero {number} è dispari");
+        }
+    }
+
+    int n;
+
+    Console.WriteLine("Inserisci un numero intero");
+    n= Convert.ToInt32(Console.ReadLine());
+    CheckNumber(n);
 }
 
 
